@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from os import path
-from solved import solution
+from solution import solution
 
 
 filename = "test.file.txt"
