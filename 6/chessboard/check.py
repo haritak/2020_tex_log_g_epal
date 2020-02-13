@@ -23,9 +23,9 @@ for line in f:
         corrent_line = "_________________\n"
     elif lineno==9:
         corrent_line = "-----------------\n"
-    elif lineno%2==1:
-        corrent_line = ". .X. .X. .X. .X.\n"
     elif lineno%2==0:
+        corrent_line = ". .X. .X. .X. .X.\n"
+    elif lineno%2==1:
         corrent_line = ".X. .X. .X. .X. .\n"
     if line==corrent_line:
         print "Line number ", lineno, "is ok."
