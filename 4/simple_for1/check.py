@@ -8,7 +8,7 @@ print "Check 1: passed - No syntax errors"
 
 j1 = [i for i in range(0,6)]
 j2 = [i for i in range(6,33,2)]
-j3 = [i for i in range(33,43,2)]
+j3 = [i for i in range(33,44,2)]
 #print j1,j2,j3
 j = j1+j2+j3
 #print j
